@@ -1,0 +1,26 @@
+section {
+    background-color: burlywood;
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+.clearfix {
+    padding: 5px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.clearfix-p {
+    float: left;
+    width: 50%;
+}
+
+#chart {
+    float: right;
+    vertical-align: middle;
+}

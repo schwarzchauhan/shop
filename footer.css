@@ -1,8 +1,17 @@
 footer {
     margin: auto;
     width: 70%;
+    background-color: beige;
+    color: brown;
 }
 
 .copyright {
     text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
