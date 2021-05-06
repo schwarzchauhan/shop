@@ -1,12 +1,14 @@
 /*** nesting style 🖐 ✋ 🖖 🤘 🤞 🖕 👆 ☝  ****/
 
 header {
-    background-color: darkturquoise;
     padding: 10px;
 }
 
+
+/*🖐*/
+
 .navbar {
-    background-color: lightgreen;
+    background-color: rgba(144, 238, 144, 0.274);
     overflow: hidden;
 }
 

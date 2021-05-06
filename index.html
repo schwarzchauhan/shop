@@ -8,6 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>shop</title>
 
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
     <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="./header.css">
     <link rel="stylesheet" href="./footer.css">
@@ -21,8 +24,31 @@
     <header>
 
         <div class="navbar">
-            <a href="https://github.com/usernameharshchauhan/shop">Home</a>
-            <a href="https://github.com/usernameharshchauhan/shop">About us</a>
+            <a href="https://github.com/usernameharshchauhan/shop"><i class="fas fa-home"></i>Home</a>
+            <a href="https://github.com/usernameharshchauhan/shop"><i class="fas fa-address-card"></i>About us</a>
+            <div class="dropdown">
+                <button class="drop-btn"><i class="fas fa-university"></i>Academics
+                </button>
+                <div class="dropdown-content">
+                    <div class="nav-row">
+                        <div class="nav-col">
+                            <a href="https://github.com/usernameharshchauhan/shop">chem</a>
+                            <a href="https://github.com/usernameharshchauhan/shop">phy</a>
+                            <a href="https://github.com/usernameharshchauhan/shop">mech</a>
+                        </div>
+                        <div class="nav-col">
+                            <a href="https://github.com/usernameharshchauhan/shop">Electrical</a>
+                            <a href="https://github.com/usernameharshchauhan/shop">ECE</a>
+                            <a href="https://github.com/usernameharshchauhan/shop">PIE</a>
+                        </div>
+                        <div class="nav-col">
+                            <a href="https://github.com/usernameharshchauhan/shop">M.Tech</a>
+                            <a href="https://github.com/usernameharshchauhan/shop">MCA</a>
+                            <a href="https://github.com/usernameharshchauhan/shop">BBA</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="dropdown">
                 <button class="drop-btn">Academics
                 </button>
@@ -47,6 +73,7 @@
                 </div>
             </div>
         </div>
+
     </header>
 
     <div class="slideshow">
@@ -81,44 +108,77 @@
             </div>
         </div>
 
-        <div class="clearfix">
-            <div class="clearfix-p">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis facere pariatur quo asperiores! Beatae nesciunt officia optio dolorem exercitationem, id vitae aliquam quod cum mollitia alias! Hic dignissimos esse harum. Lorem ipsum
-                    dolor sit amet, consectetur adipisicing elit. Id ullam, similique omnis deleniti asperiores quos? Commodi nobis illo debitis quas quos ipsam dolore possimus dicta! Quas repellendus ea fugit quibusdam. Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Perspiciatis eligendi odio excepturi, aut ad quaerat ipsum iusto id maiores nostrum dolor distinctio maxime voluptatum quam aliquid provident nobis sint enim. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Minus odio consequuntur, dolorum obcaecati ratione animi laudantium voluptates reprehenderit facere mollitia dicta! Perspiciatis amet architecto quos nulla et voluptas culpa alias. Lorem ipsum dolor, sit amet consectetur adipisicing
-                    elit. Omnis, obcaecati tenetur vero ut rem tempore, at blanditiis vitae aut est mollitia voluptatem libero voluptatibus distinctio aperiam neque, nulla porro molestias! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta
-                    laudantium ab eum similique a mollitia numquam sit nostrum, dolore ullam at nemo impedit reiciendis natus doloribus ducimus praesentium nihil! Magni.
-                </p>
+        <div class="tabs">
+
+            <div class="tabBtns">
+                <button class="tab-btn" onclick="openCity()">bloomfontein</button>
+                <button class="tab-btn" onclick="openCity()">pretoria</button>
+                <button class="tab-btn" onclick="openCity()">cape town</button>
             </div>
+
+            <div class="tab-content">
+                <img src="./pics/bloomfontein.jpg" alt=""> Bloemfontein, (/ˈbluːmfɒnteɪn/ BLOOM-fon-tayn;[3][4] Afrikaans: [ˈblumfɔntɛin], lit. "fountain of flowers") also known as Bloem, is the capital city of the Free State Province of South Africa;
+                and, as the judicial capital of the nation, one of South Africa's three national capitals (the other two being Cape Town, the legislative capital, and Pretoria, the administrative capital) and is the seventh largest city in South Africa.[5][6]
+                Situated at an elevation of 1,395 m (4,577 ft) above sea level, the city is home to approximately 520,000[6] residents and forms part of the Mangaung Metropolitan Municipality which has a population of 747,431.[7] It was one of the host
+                cities for the 2010 FIFA World Cup. The origin of the city's name is disputed. It has been assumed to be from the Dutch words bloem (flower) and fontein (fountain), meaning fountain of flowers. Popular colonial legends include an ox named
+                "Bloem" owned by Rudolphus Martinus Brits, one of the pioneer farmers that was taken by a lion near a fountain on his property, while the more likely indigenous history names Jan Bloem II (1775–1858), a !Ora ("Korana" Khoekhoe) leader
+                who settled there.[11] His father, Jan Bloem, was a fugitive from the Cape Colony, where he reportedly was escaping arrest after murdering his first wife. Bloem was well known as an expert marksman, and married into the ǀHõaǁʼaes (Katz
+                clan) and ǀŨdiǁʼaes where he played a role in training !Ora artillery fighters during the first !Ora Wars (a century prior to the second !Ora Wars) on the ǂNū!arib (Orange River) in the second half of the 18th century CE. His son was born
+                in 1775 into the Springbok Clan (ǀŨdiǁʼaes), later becoming the kapteijn or chief of this polity. Though historically a !Orana settlement, and then a Boer settlement, Bloemfontein was officially founded in 1846 as a fort by British army
+                major Henry Douglas Warden as a British outpost in the Transoranje region, at that stage occupied by various groups of peoples including !Orana (so-called "Korana" of the ǀHõaǁʼaes, ǀHũdiǁʼaes, Einiǁʼaes and others), Cape Colony Trek Boers,
+                Griqua (at that time known as Baasters), and Barolong. Warden originally chose the site largely because of its proximity to the main route to Winburg, the spacious open country, and the absence of horse sickness. Bloemfontein was the original
+                farm of Johannes Nicolaas Brits born 21 February 1790, owner and first inhabitant of Bloemfontein. Johann – as he was known – sold the farm to Major Warden.[12] With colonial policy shifts, the region changed into the Orange River Sovereignty
+                (1848–54) and eventually the Orange Free State Republic (1854–1902). From 1902 to 1910 it served as the capital of the Orange River Colony and since that time as the provincial capital of the Free State. In 1910 it became the Judicial
+                capital of the Union of South Africa.
+            </div>
+
+            <div class="tab-content">
+                <img src="./pics/pretoria.jpg" alt=""> Pretoria (Afrikaans pronunciation: [prɛˈtuəria]; Zulu: ePitoli) is one of South Africa’s three capital cities,[4] serving as the seat of the executive branch of government, and as the host to all
+                foreign embassies to South Africa.[4] (Cape Town is the legislative capital and Bloemfontein the judicial capital. Pretoria was founded in 1855 by Marthinus Pretorius, a leader of the Voortrekkers, who named it after his father Andries
+                Pretorius and chose a spot on the banks of the Apies rivier (Afrikaans for "Monkeys river") to be the new capital of the South African Republic (Dutch: Zuid Afrikaansche Republiek; ZAR). The elder Pretorius had become a national hero of
+                the Voortrekkers after his victory over Dingane and the Zulus in the Battle of Blood River in 1838. The elder Pretorius also negotiated the Sand River Convention (1852), in which the United Kingdom acknowledged the independence of the
+                Transvaal. It became the capital of the South African Republic on 1 May 1860. The founding of Pretoria as the capital of the South African Republic can be seen as marking the end of the Boers' settlement movements of the Great Trek. Pretoria
+                was founded in 1855 by Marthinus Pretorius, a leader of the Voortrekkers, who named it after his father Andries Pretorius and chose a spot on the banks of the Apies rivier (Afrikaans for "Monkeys river") to be the new capital of the South
+                African Republic (Dutch: Zuid Afrikaansche Republiek; ZAR). The elder Pretorius had become a national hero of the Voortrekkers after his victory over Dingane and the Zulus in the Battle of Blood River in 1838. The elder Pretorius also
+                negotiated the Sand River Convention (1852), in which the United Kingdom acknowledged the independence of the Transvaal. It became the capital of the South African Republic on 1 May 1860. The founding of Pretoria as the capital of the
+                South African Republic can be seen as marking the end of the Boers' settlement movements of the Great Trek. Union of South Africa Main article: Union of South Africa The Boer Republics of the ZAR and the Orange River Colony were united
+                with the Cape Colony and Natal Colony in 1910 to become the Union of South Africa. Pretoria then became the administrative capital of the whole of South Africa, with Cape Town the legislative capital and Bloemfontein served as the judicial
+                capital. Between 1910 and 1994, the city was also the capital of the province of Transvaal. (As the capital of the ZAR, Pretoria had superseded Potchefstroom in that role.) On 14 October 1931, Pretoria achieved official city status.[8]
+                When South Africa became a republic in 1961, Pretoria remained its administrative capital.[9] Pretoria is situated approximately 55 km (34 mi) north-northeast of Johannesburg in the northeast of South Africa, in a transitional belt between
+                the plateau of the Highveld to the south and the lower-lying Bushveld to the north. It lies at an altitude of about 1,339 m (4,393 ft) above sea level,[10] in a warm, sheltered, fertile valley, surrounded by the hills of the Magaliesberg
+                range.
+            </div>
+
+            <div class="tab-content">
+                <img src="./pics/capeTown.jpg" alt=""> Cape Town (Afrikaans: Kaapstad) is the second-most populous city in South Africa, after Johannesburg, and also the legislative capital of South Africa. The earliest known remnants of human occupation
+                in the region were found at Peers Cave in Fish Hoek and date to between 15,000 and 12,000 years ago.[14] Little is known of the history of the region's first residents, since there is no written history from the area before it was first
+                mentioned by Portuguese explorer Bartolomeu Dias in 1488 who was the first European to reach the area and named it "Cape of Storms" (Cabo das Tormentas). It was later renamed by John II of Portugal as "Cape of Good Hope" (Cabo da Boa Esperança)
+                because of the great optimism engendered by the opening of a sea route to India and the East. Vasco da Gama recorded a sighting of the Cape of Good Hope in 1497. In 1510, at the Battle of Salt River, Francisco de Almeida and sixty-four
+                of his men were killed and his party were defeated[15] by the !Uriǁ’aekua ("Goringhaiqua" in Dutch approximate spelling) using specially trained cattle. The !Uriǁ’aekua were one of the so-called Khoekhoe clans of the area. In the late
+                16th century French, Danish, Dutch and English, but mainly Portuguese, ships regularly continued to stop over in Table Bay en route to the Indies. They traded tobacco, copper, and iron with the Khoekhoe clans of the region to exchange
+                fresh meat and other provisions.
+            </div>
+
+        </div>
+
+        <div class="clearfix">
             <div id="chart">
             </div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis facere pariatur quo asperiores! Beatae nesciunt officia optio dolorem exercitationem, id vitae aliquam quod cum mollitia alias! Hic dignissimos esse harum. Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit. Id ullam, similique omnis deleniti asperiores quos? Commodi nobis illo debitis quas quos ipsam dolore possimus dicta! Quas repellendus ea fugit quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perspiciatis eligendi odio excepturi, aut ad quaerat ipsum iusto id maiores nostrum dolor distinctio maxime voluptatum quam aliquid provident nobis sint enim. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus odio consequuntur,
+            dolorum obcaecati ratione animi laudantium voluptates reprehenderit facere mollitia dicta! Perspiciatis amet architecto quos nulla et voluptas culpa alias. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, obcaecati tenetur
+            vero ut rem tempore, at blanditiis vitae aut est mollitia voluptatem libero voluptatibus distinctio aperiam neque, nulla porro molestias! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta laudantium ab eum similique a mollitia
+            numquam sit nostrum, dolore ullam at nemo impedit reiciendis natus doloribus ducimus praesentium nihil! Magni. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, consequatur perferendis non dolore dolores pariatur labore consectetur
+            amet! Unde voluptates incidunt consectetur est quam corrupti perferendis aut aliquam cupiditate officiis!
         </div>
     </section>
 
 
     <footer>
-        <div class="flex-container">
+        <div class="f-links-flexBox">
 
-            <div class="f-links-container">
-                <ul class="f-link-heading">Important
-                    <li class="f-link">
-                        <a href=""> NVS</a>
-                    </li>
-                    <li class="f-link"><a href="">CBSE</a></li>
-                    <li class="f-link"><a href="">CBSE</a></li>
-                    <li class="f-link"><a href="">CBSE</a></li>
-                </ul>
-                <ul class="f-link-heading">Important
-                    <li class="f-link">
-                        <a href=""> NVS</a>
-                    </li>
-                    <li class="f-link"><a href="">CBSE</a></li>
-                    <li class="f-link"><a href="">CBSE</a></li>
-                    <li class="f-link"><a href="">CBSE</a></li>
-                </ul>
-            </div>
-            <div class="f-links-container">
+            <div class="">
                 <ul class="f-link-heading">Important
                     <li class="f-link">
                         <a href=""> NVS</a>
@@ -128,7 +188,7 @@
                     <li class="f-link"><a href="">CBSE</a></li>
                 </ul>
             </div>
-            <div class="f-links-container">
+            <div class="">
                 <ul class="f-link-heading">Important
                     <li class="f-link">
                         <a href=""> NVS</a>
@@ -138,17 +198,25 @@
                     <li class="f-link"><a href="">CBSE</a></li>
                 </ul>
             </div>
-            <div class="f-links-container">
-                <ul class="f-link-heading">Contact Us
+            <div class="">
+                <ul class="f-link-heading">Important
                     <li class="f-link">
                         <a href=""> NVS</a>
                     </li>
-                    <li class="f-link"><a href="">sales@********</a></li>
-                    <li class="f-link">
-                        <a href="">87683</a>
-                    </li>
-                    <li class="f-link"><a href="">Amartha strabe, Red Square, blomfontein, Africa</a></li>
+                    <li class="f-link"><a href="">CBSE</a></li>
+                    <li class="f-link"><a href="">CBSE</a></li>
+                    <li class="f-link"><a href="">CBSE</a></li>
                 </ul>
+            </div>
+            <div class="f-social-icons">
+                <div class="f-social-flexBox">
+                    <div><i style="color: #4267B2;" class="fab fa-facebook-f"></i></div>
+                    <div> <i style="color: #FF0000;" class="fab fa-youtube"></i></div>
+                    <div> <i style="color: #B92B27;" class="fab fa-quora"></i></div>
+                    <div> <i class="fab fa-instagram-square"></i></div>
+                    <div><i class="fab fa-twitter"></i></div>
+                    <div> <i style="color: #4285F4;" class="fab fa-google-pay"></i></div>
+                </div>
             </div>
         </div>
         <div class="copyright" style="font-weight: bold;">&copy; 1991-2021 Sujit Son's & Co.</div>
