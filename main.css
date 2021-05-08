@@ -3,8 +3,7 @@
 }
 
 body {
-    background-image: linear-gradient(to bottom right, red, orange, green, blue, indigo, violet);
-    color: aliceblue;
+    background-image: linear-gradient(to bottom right, rgba(255, 0, 0, 0.411), rgba(255, 166, 0, 0.384), rgba(0, 128, 0, 0.466), rgba(0, 0, 255, 0.411), rgba(76, 0, 130, 0.507), violet);
     margin: 0px;
 }
 

@@ -22,3 +22,32 @@ function drawChart() {
     var chart = new google.visualization.PieChart(document.getElementById('chart'));
     chart.draw(data, options);
 }
+
+
+// tabs
+
+var tabBtn = document.querySelectorAll('.tabBtns button');
+var tabContent = document.querySelectorAll('.tab-content');
+
+
+
+
+$(document).ready(function() {
+
+    document.querySelectorAll('.tabBtns button').forEach(item => {
+        item.addEventListener('click', event => {
+            for (let i = 0; i < tabContent.length; i++) {
+                tabContent[i].style.display = "none";
+                tabBtn[i].classList.remove("active");
+            }
+            for (let i = 0; i < tabBtn.length; i++) {
+                if (tabBtn[i] == item) {
+                    tabContent[i].style.display = "table";
+                    tabBtn[i].classList.add("active");
+                }
+            }
+        })
+    })
+
+    $('.tabBtns button:first-child').trigger('click');
+})

@@ -1,14 +1,18 @@
 /*** nesting style 🖐 ✋ 🖖 🤘 🤞 🖕 👆 ☝  ****/
 
 header {
+    outline: 2px solid blueviolet;
+    margin: 5px;
     padding: 10px;
+    border: 3px solid tomato;
 }
 
 
 /*🖐*/
 
 .navbar {
-    background-color: rgba(144, 238, 144, 0.274);
+    background-color: rgba(144, 238, 144, 0.534);
+    border-radius: 10px;
     overflow: hidden;
 }
 
@@ -19,7 +23,7 @@ header {
     cursor: pointer;
 }
 
-.navbar a {
+.navbar>a {
     float: left;
     padding: 5px;
     font-size: 20px;
@@ -31,15 +35,12 @@ header {
     float: left;
 }
 
-.dropdown .drop-btn {
-    border: none;
-    outline: none;
+.dropdown a.drop-btn {
+    display: block;
     padding: 5px;
-    color: #551a8b;
     font-size: 20px;
     font-weight: bold;
-    font-family: "Times New Roman", Times, serif;
-    background-color: inherit;
+    color: #551a8b;
 }
 
 .dropdown .dropdown-content {
@@ -65,12 +66,16 @@ header {
 
 .nav-col {
     flex-basis: 33.3%;
+    text-align: center;
 }
 
-.nav-col a {
+.nav-col>a {
     display: block;
-    float: none;
     border: 2px solid red;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .nav-col a:hover {
