@@ -51,3 +51,16 @@ $(document).ready(function() {
 
     $('.tabBtns button:first-child').trigger('click');
 })
+
+// modal
+
+var modal = document.querySelector('.sec-modal');
+document.querySelector('#modalBtn').addEventListener('click', function() {
+    // alert('hi');
+    modal.style.display = "block";
+});
+
+document.querySelector('.modalClose-btn').addEventListener('click', function() {
+    // alert('hi');
+    modal.style.display = "none";
+});

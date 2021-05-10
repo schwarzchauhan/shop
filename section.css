@@ -31,6 +31,55 @@ section {
 }
 
 
+/* ✋ */
+
+.sec-modal {
+    display: none;
+    position: fixed;
+    top: 20%;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    background-color: rgba(210, 105, 30, 0.274);
+    padding: 10px;
+}
+
+.modal-content {
+    position: relative;
+    margin: auto;
+    width: 50%;
+    padding: 5px;
+    background-color: rgba(255, 105, 180, 0.897);
+    border-radius: 10px 30px;
+    border: 2px solid rebeccapurple;
+    font-size: 25px;
+    animation: fromSkyToEarth 1s linear 0s 1;
+}
+
+@keyframes fromSkyToEarth {
+    from {
+        top: -200px;
+        opacity: 0;
+    }
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+.modalClose-btn {
+    float: right;
+    font-weight: bold;
+    color: antiquewhite;
+    margin-right: 10px;
+}
+
+.modalClose-btn:hover {
+    color: brown;
+    cursor: pointer;
+}
+
+
 /* 🖐 */
 
 .tabs {

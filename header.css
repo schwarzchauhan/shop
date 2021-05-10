@@ -17,7 +17,7 @@ header {
 }
 
 .navbar>a:hover,
-.navbar .dropdown:hover .drop-btn {
+.navbar .dropdown:hover a.drop-btn {
     color: greenyellow;
     background-color: coral;
     cursor: pointer;
@@ -33,6 +33,11 @@ header {
 
 .dropdown {
     float: left;
+}
+
+.navbar input {
+    float: right;
+    margin: 5px;
 }
 
 .dropdown a.drop-btn {

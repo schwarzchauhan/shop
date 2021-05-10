@@ -31,3 +31,32 @@ body {
     width: 100%;
     vertical-align: middle;
 }
+
+
+/* 🖐 */
+
+.sideNav {
+    position: fixed;
+    left: 0;
+    top: 40%;
+    z-index: 1;
+}
+
+.sideNav a.sinnbold {
+    display: block;
+    left: -95px;
+    position: relative;
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 25px;
+    background-color: rgb(250, 240, 230);
+    opacity: 0.8;
+    text-decoration: none;
+    border-radius: 5px 10px;
+    transition: transform 0.3s linear 0s, opacity 0.3s linear 0s;
+}
+
+.sideNav a.sinnbold:hover {
+    transform: translate(95px, 0px);
+    opacity: 1;
+}
