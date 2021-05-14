@@ -86,3 +86,77 @@ header {
 .nav-col a:hover {
     color: rgb(75, 230, 4);
 }
+
+
+/* 🖐 */
+
+.form-modal {
+    display: none;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.808);
+    /* border: 3px solid green; */
+}
+
+.form-modal-content {
+    position: relative;
+    height: 80%;
+    width: 40%;
+    margin: auto;
+    transform: translate(0, 10%);
+    padding: 20px;
+    background-color: rgb(21, 139, 17);
+    border: 2px solid blueviolet;
+}
+
+.form-modalClose-btn {
+    position: absolute;
+    right: 25px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    background-color: chocolate;
+}
+
+.form-modalClose-btn:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.popupAnimation {
+    animation: zoom 0.1s linear 0s 1;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+.login-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: royalblue;
+    color: whitesmoke;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.login-form button[type="submit"]:hover {
+    opacity: 1;
+}

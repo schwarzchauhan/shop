@@ -32,6 +32,8 @@
         <div class="navbar">
             <a href="https://github.com/usernameharshchauhan/shop"><i class="fas fa-home"></i>Home</a>
             <a href="https://github.com/usernameharshchauhan/shop"><i class="fas fa-address-card"></i>About us</a>
+            <a class="loginForm-btn" href="javascript:void(0);"><i class="fas fa-sign-in-alt"></i>Login</a>
+            <a id="print-btn" href=""><i class="far fa-file-alt"></i>print</a>
             <div class="dropdown">
                 <a class="drop-btn"><i class="fas fa-university"></i>Academics</a>
                 <div class="dropdown-content">
@@ -55,7 +57,7 @@
                 </div>
             </div>
             <div class="dropdown">
-                <a class="drop-btn">Academics
+                <a class="drop-btn"><i class="fas fa-tasks"></i>Regulations
                 </a>
                 <div class="dropdown-content">
                     <div class="nav-row">
@@ -78,6 +80,24 @@
                 </div>
             </div>
             <input type="text" placeholder="Search...">
+        </div>
+
+        <div class="form-modal popupAnimation">
+            <div class="form-modal-content">
+                <span class="form-modalClose-btn">&times;</span>
+                <form class="login-form" action="code.php" method="POST">
+                    <div class="form-container">
+                        <label for="username">Username</label>
+                        <input type="text" placeholder="Enter username" name="username" required>
+
+                        <label for="password">Password</label>
+                        <input type="password" placeholder="Enter password" name="password" required>
+                        <label><input type="checkbox" name="showPassword">show password</label>
+
+                        <button type="submit">Login</button>
+                    </div>
+                </form>
+            </div>
         </div>
 
     </header>
@@ -248,6 +268,7 @@
 
     <!-- google charts  -->
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="./header.js"></script>
     <script src="./section.js"></script>
 
 
