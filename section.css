@@ -114,3 +114,44 @@ section {
 .tab-content img {
     float: right;
 }
+
+
+/* 🖐 */
+
+.team-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.team-item {
+    flex-basis: 30%;
+    border: 2px solid rebeccapurple;
+    text-align: center;
+}
+
+.team-item img {
+    width: 100%;
+}
+
+.team-member-content {
+    padding: 10px;
+}
+
+.team-member-contactBtn {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 5px;
+    background-color: rgba(127, 255, 0, 1);
+    color: brown;
+    font-weight: bold;
+    font-size: 25px;
+    transition: background-color 0.2s linear 0s;
+}
+
+.team-member-contactBtn:hover {
+    cursor: pointer;
+    background-color: rgba(127, 255, 0, 0.5);
+}
